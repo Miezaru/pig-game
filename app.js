@@ -13,6 +13,7 @@ GAME RULES:
   var scores, roundScore, activePlayer, gamePlaying, scoreSettings;
 
   init();
+  scoreSettings = 100;
 
   document.querySelector('.btn-roll').addEventListener('click', function () {
     if (gamePlaying) {
